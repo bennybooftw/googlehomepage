@@ -120,3 +120,43 @@ nav ul li {
 	color: black;
 	border: 1px solid #cecece;
 }
+
+.footer-wrapper {
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	opacity: 0.75;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0;
+	background-color: #efefef;
+	border-top: 1px solid #cecece;
+}
+
+#footer-left {
+	float: left;
+}
+
+#footer-left ul {
+	padding: 0;
+}
+
+#footer-left li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 0 0 30px;
+}
+
+#footer-left li:nth-of-type(2) {
+	padding: 0 0 0 25px;
+}
+
+#footer-right {
+	float: right;
+}
+
+#footer-right li {
+	list-style-type: none;
+	display: inline-block;
+}
