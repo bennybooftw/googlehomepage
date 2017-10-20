@@ -124,12 +124,11 @@ nav ul li {
 .footer-wrapper {
 	font-size: 13px;
 	font-family: arial, sans-serif;
-	opacity: 0.75;
+	opacity: 1;
 	position: absolute;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	padding: 0;
 	background-color: #efefef;
 	border-top: 1px solid #cecece;
 }
@@ -159,4 +158,5 @@ nav ul li {
 #footer-right li {
 	list-style-type: none;
 	display: inline-block;
+	padding-right: 25px;
 }
